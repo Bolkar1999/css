@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body{
+            background-color: rgb(255, 127, 133);
+        }
+        .bx{
+            font-size: 40px;
+            color: bisque;
+            display: none;
+        }
+
+        @media (min-width:400px) {
+            #telefon .bx{
+                display: block;
+            }
+            body{
+                background-color: peru;
+            }
+
+        }
+        @media (min-width:600px) {
+            #tablet .bx{
+                display: block;
+            }
+            body{
+                background-color: rgb(63, 72, 205);
+            }
+
+        }
+        @media (min-width:900px) {
+            #desktop .bx{
+                display: block;
+            }
+            body{
+                background-color: rgb(158, 205, 63);
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div id="telefon"><i class='bx bxs-phone'></i></div>
+    <br>
+    <div id="tablet"><i class='bx bx-mobile-landscape'></i></div>
+    <br>
+    <div id="desktop"><i class='bx bx-desktop' ></i></div>
+    
+</body>
+</html>

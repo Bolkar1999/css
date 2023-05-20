@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <style>
+        *{margin: 0px;}
+        #iletişim{background-color: brown;
+        padding: 30px;
+        }
+        #anakısım{background-color: rgb(134, 69, 69);
+        padding: 150px;
+        }
+        #Nav{
+            background-color: rgb(215, 125, 125);
+            padding: 20px;
+        }
+        #menü{
+            display: inline-block;
+            width: calc(100% - 65px);
+            text-align:right;
+        }
+        .Ana-logo{
+            color: black;
+            font-weight: bolder;
+            font-size: 19px;
+            text-decoration:none;
+        }
+        .itemler{
+            margin:0;
+            padding: 0;
+            list-style:none;
+        }
+        .item{
+            display: inline-block;
+            margin: 0 15px;
+            text-decoration:none;
+            font-weight: bolder;
+            
+        }
+        .item-anasayfa a{
+            color: aliceblue;
+            background-color: crimson;
+            border: 2px solid black;
+            padding: 5px 16px;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header id="Nav">
+        <a href="#" class="Ana-logo">udemy</a>
+        <nav id="menü">
+            <ul class="itemler">
+                <li class="item item-anasayfa">
+                    <a href="#">anasayfa</a>
+                </li>
+                <li class="item">
+                    <a href="#">kurslar</a>
+               </li>
+                <li class="item">
+                    <a href="#">eğitmenler</a>
+                </li>
+                <li class="item">
+                    <a href="#">iletişim</a>
+                </li>
+                <li class="item">
+                    <a href="#">Kaynakça</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <section id="anakısım">
+            <h1>udemye hoş geldiniz</h1>
+        </section>
+    </div>
+    <div>
+        <section id="iletişim">
+            <h1>iletişim bilgileri için buraya tıklayın ...</h1>
+        </section>
+    </div>
+
+
+
+
+
+
+    
+</body>
+</html>

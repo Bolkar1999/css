@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        p::first-letter{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 50px;
+        }
+        p::first-line{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 50px;
+            color: blue;
+            background-color: aliceblue;
+        }
+        p::after{
+            content: '\270A';
+        }
+        .s::selection{
+            background-color: rgb(132, 0, 255);
+        }
+        a{
+            padding: 10px 10px;
+            display:inline-block;
+            text-decoration: none;
+            width: 70px;
+            text-align: center;
+        }
+        a:hover{
+            color: blue;
+            background-color: brown;
+        }
+        a:active{
+            color: yellow;
+            background-color: black;
+        }
+        a:visited{
+            color: tomato;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <h1>Pseudo öğreniyoruz...</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Dolores illum architecto magni eaque laboriosam ratione inventore soluta qui dolorem. Nesciunt?</p>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, eaque temporibus obcaecati blanditiis culpa quae, quod tempore
+    similique illum iusto repellendus expedita ipsum amet? Nostrum hic omnis ducimus voluptate exercitationem?</p>
+    <br>
+    <p class="s">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+    Esse ullam sunt explicabo quam quos vitae, temporibus sapiente blanditiis fuga. Quam.</p>
+    <a href="display.html">menü</a>
+    <a href="index.html">Anasayfa</a>
+    <a href="bavbar.html">kurslar</a>
+
+</body>
+</html>
+
+<!-- w3scholl sitesinden emojiler alabiliriz. -->
+<!-- :: kavramı elementlerde kullanılır. -->
+<!-- := kavramı classeslarda kullanılır. -->

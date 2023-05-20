@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        html{
+            height: 3000px;
+        }
+        .Metin{
+            padding: 15px;
+            border: 2px solid;
+            margin-top: 5px;
+        }
+        .başlık{
+            background-color: greenyellow;
+        }
+        .içerik{
+            background-color: aquamarine;
+        }
+        .son{
+            background-color: bisque;
+            position: sticky;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class=" Metin başlık">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis mollitia voluptate
+         corrupti corporis quas totam aliquam distinctio quo exercitationem dolor possimus praesentium doloribus itaque consequatur
+         ut id sapiente facere culpa labore aliquid voluptatum deleniti quibusdam, magnam et. Doloremque, voluptates minima.
+    </div>
+    <br>
+    <div class="Metin içerik">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis mollitia voluptate
+         corrupti corporis quas totam aliquam distinctio quo exercitationem dolor possimus praesentium doloribus itaque consequatur
+         ut id sapiente facere culpa labore aliquid voluptatum deleniti quibusdam, magnam et. Doloremque, voluptates minima.
+    </div>
+    <br>
+    <div class="Metin son">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis mollitia voluptate
+         corrupti corporis quas totam aliquam distinctio quo exercitationem dolor possimus praesentium doloribus itaque consequatur
+         ut id sapiente facere culpa labore aliquid voluptatum deleniti quibusdam, magnam et. Doloremque, voluptates minima.
+    </div>
+</body>
+</html>
+
+<!-- Position türleri:
+    Static olursa olduğu akışı korur 
+    relative olursa olduğu akış içerisinde dört taraftan hareket ettirilebilir
+    absolute olursa olduğu akışın dışına çıkar dört taraftan hareket ettirilebilir.
+    fixed olursa olduğu akışa sabitlenir sayfayı aşağıya indirirseniz bile konumu korur
+    sticky olursa olduğu akışta devam eder ama sayfanın inmeye başladığı anda fixed ile aynı görevi görür.
+ -->

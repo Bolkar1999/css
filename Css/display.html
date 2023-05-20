@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display...</title>
+    <style>
+        .Renk{height: 70px; width: 70px; display: inline-block;}
+        #bir{background-color: aqua;}
+        #iki{background: url(x2.jpeg) center;}
+        #üç{background-color: yellow;}
+        #dört{background-color: black;}
+        #beş{background-color: orange;}
+        a{
+            background-color: blue;
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+        }
+        .color{height: 70px; width: 70px; display: inline-block;}
+        #a{background-color: aqua;}
+        #b{background-color: blueviolet;}
+        #c{background-color: yellow; display:none;}
+        #c{background-color: yellow; visibility: hidden;}
+        #d{background-color: black;}
+        #e{background-color: orange;}
+        a{
+            background-color: blue;
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <a href="">Anasayfa</a>
+        <a href="">Bölümler</a>
+        <a href="">Bloglar</a>
+        <a href="">Haberler</a>
+        <a href="">Kaynakça</a>
+    </div>
+
+    <div id="renkler">
+        <div class="Renk" id="bir">1</div>
+        <div class="Renk" id="iki">2</div>
+        <div class="Renk" id="üç">3</div>
+        <div class="Renk" id="dört">4</div>
+        <div class="Renk" id="beş">5</div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="renkler">
+        <div class="color" id="a">1</div>
+        <div class="color" id="b">2</div>
+        <div class="color" id="c">3</div>
+        <div class="color" id="ç"></div>
+        <div class="color" id="d">4</div>
+        <div class="color" id="e">5</div>
+    </div>
+    <!--  display: inline= olduğu yer kadar kaplar
+    block=bütün satırı kaplar.
+    inciline-block= hem inline hemde istediğimiz kadar yer kaplar.
+    none=nesneyi tamamen kaybeder.
+    visibility=nesneyi gizler ama konumunu korur. -->
+</body>
+</html>
